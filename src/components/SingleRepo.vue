@@ -7,9 +7,10 @@
             <h3><span style="color:#dc143c;">Date Created: </span>{{ repo.created_at }}</h3>
             <h3><span style="color:#ff0000;">Stargazers Count: </span>{{ repo.stargazers_count }}</h3>
             <h3><span style="color:#ff1493;">has Issues: </span>{{ repo.has_issues }}</h3>
+            <h3><span style="color: #A833FF;">Languages Used: </span>{{ repo.languages_used }}</h3> 
         </div>
         
-        <!-- <h3><span style="color: #A833FF;">Languages Used: </span>{{ repo.languages_used }}</h3> -->
+        
         <div class="child" id="pie">
             <LanguagesUsed :languages_used="repo.languages_used" />
         </div>
