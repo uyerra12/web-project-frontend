@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2 style="text-align: left; color: darkblue;">Name: {{ name }}</h2>
-        <h2 style="text-align: left; color: darkblue;">Student ID: 00763341</h2>
-        <h2 style="text-align: left; color: darkblue;">Project: Github Repositories</h2>
+        <h2 style="text-align: left; color: #00008b;">Name: {{ name }}</h2>
+        <h2 style="text-align: left; color: #00008b;">Student ID: 00763341</h2>
+        <h2 style="text-align: left; color: #00008b;">Project: Github Repositories</h2>
     </div>
     
 </template>

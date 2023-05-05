@@ -20,7 +20,7 @@ export default{
   },
   methods:{
     async getRepos(){
-      const data = await fetch('http://localhost:5050/api');
+      const data = await fetch('https://uyerra.onrender.com/api');
       const result = await data.json()
       console.log(result);
       return result;
